@@ -1,0 +1,150 @@
+body {
+    background: url(./img/planet.jpg) no-repeat center center fixed;
+    min-height: 100vh;
+    min-width: 370px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-transform: uppercase;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgba(0, 118, 148, 0.4);
+    padding: 7px;
+    margin-bottom: 4px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.form-content {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 10px;
+}
+
+
+.form-content input {
+    margin: 4px;
+    height: 15px;
+}
+
+main {
+    display: grid;
+    justify-content: center;
+}
+
+.main-container {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-content: center;
+    background-color:  rgba(0, 118, 148, 0.4);
+    border-radius: 5px;
+}
+
+#weather-description {
+    margin-left: 20px;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 139, 30, 0.4);
+    border-top-right-radius: 5px;
+}
+
+.w-icon {
+    margin: auto;
+    padding-left: 20px;
+}
+
+.info-col-one {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-top: 5px;
+    align-items: stretch;
+    background-color: rgba(255, 115, 1, 0.4);
+    border-bottom-left-radius: 5px;
+}
+
+.weather-container {
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+#weather-location {
+    color: white;
+}
+
+#weather-string {
+    font-size: 55px;
+    color: white;
+}
+
+#weather-description {
+    padding: 10px;
+}
+
+.info-col-two {
+    padding-left: 30px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(148, 0, 0, 0.4);
+    border-bottom-right-radius: 5px;
+}
+
+#w-change-btn {
+    color: white;
+    background-color: black;
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 150px;
+}
+
+.final-section {
+    width: 100%;
+    margin-top: 4px;
+    display: flex;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 145, 1, 0.4);
+    color: white;
+    border-radius: 5px;
+}
+
+#w-change-btn:hover {
+    background-color: rgb(39, 39, 39);
+}
+
+@media screen and (max-width: 500px) {
+
+    .form-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .main-container {
+        grid-template-columns: repeat(1,1fr);       
+    }
+
+    .info-col-one {
+        border-bottom-left-radius: 0px;
+    }
+
+    .info-col-two {
+        border-bottom-left-radius: 5px;
+    }
+}
