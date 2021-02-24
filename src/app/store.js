@@ -2,7 +2,7 @@ export class Store {
     constructor() {
         this.city;
         this.countryCode;
-        this.defaultCity = 'buenos aires'; /* set this city for first time the user open the app */
+        this.defaultCity = 'buenos%20aires'; /* set this city for first time the user open the app */
         this.defaultCountry = 'ar';
     }
 
