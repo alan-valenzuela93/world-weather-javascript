@@ -113,6 +113,7 @@ main {
 .final-section {
     width: 100%;
     margin-top: 4px;
+    padding: 9px 1px;
     display: flex;
     font-size: 10px;
     align-items: center;
@@ -120,13 +121,14 @@ main {
     background-color: rgba(255, 145, 1, 0.4);
     color: white;
     border-radius: 5px;
+    
 }
 
 #w-change-btn:hover {
     background-color: rgb(39, 39, 39);
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
 
     .form-content {
         display: flex;
@@ -146,5 +148,13 @@ main {
 
     .info-col-two {
         border-bottom-left-radius: 5px;
+    }
+
+    .final-section {
+        display: block;
+        background-color: rgba(255, 115, 1, 0.4);
+        padding: 4px 0px;
+        text-align: center;
+        font-size: 8px;
     }
 }
