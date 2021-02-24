@@ -27,7 +27,7 @@ This will generate a folder called 'dist' with the files needed to deploy.
 
 ## Screenshot
 
-![alt text](https://raw.githubusercontent.com/alan-valenzuela93/weather-app-nodejs/master/assets/full.png)
+![alt text](https://raw.githubusercontent.com/alan-valenzuela93/world-weather-nodejs/master/assets/full.png)
 
 
-![alt text](https://raw.githubusercontent.com/alan-valenzuela93/weather-app-nodejs/master/assets/responsive.png)
+![alt text](https://raw.githubusercontent.com/alan-valenzuela93/world-weather-nodejs/master/assets/responsive.png)
