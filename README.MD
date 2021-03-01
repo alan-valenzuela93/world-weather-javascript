@@ -1,6 +1,10 @@
-### Demo: https://worldweatherapplication.netlify.app
+### World Weather Application
 
-### Modules to install:
+Simple weather application with vanilla javascript, using object oriented programming paradigm.
+
+## Demo: https://worldweatherapplication.netlify.app
+
+## Modules to install:
 
 - Webpack
 - Webpack-cli
