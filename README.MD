@@ -1,8 +1,8 @@
-### World Weather Application
+# World Weather Application
 
 Simple weather application with vanilla javascript, using object oriented programming paradigm.
 
-## Demo: https://worldweatherapplication.netlify.app
+### Demo: https://worldweatherapplication.netlify.app
 
 ## Modules to install:
 
