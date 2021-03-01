@@ -1,7 +1,3 @@
-### Requirements:
-
-Nodejs >= v12   
-
 ### Demo: https://worldweatherapplication.netlify.app
 
 ### Modules to install:
